@@ -1,0 +1,460 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* Главный блок */
+
+* {
+    text-decoration: none;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-color: rgb(191, 243, 191);
+}
+
+.header__buttons {
+    display: none;
+}
+
+.nav {
+    display: none;
+}
+
+/* конец главного блока */
+
+
+
+/* начало первого блока */
+
+.header {
+    background: linear-gradient(113.49deg, #1c6e29 -50%, #070704 130%) no-repeat;
+    margin: 0 auto;
+    display: block;
+    align-items: center;
+    padding: 20px 15px 20px 15px;
+    text-align: center;
+}
+
+.header__glav {
+    display: flex;
+    height: 40px;
+    justify-content: space-between;
+}
+
+.header__logo {
+    width: 95px;
+    height: 30px;
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+    padding: 10px 10px;
+    padding-top: 7px;
+    background-color: white;
+}
+
+.form {
+    position: relative;
+}
+
+.form__button {
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-image: url(../images/search.png);
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    top: calc(50% - 10px);
+    left: 10px;
+}
+
+.header__list {
+    padding-top: 10px;
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+    left: -15px;
+    padding-left: 0px;
+}
+
+.header__link {
+    color: white;
+    text-decoration: none;
+}
+
+.form__input {
+    width: 300px;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 10px;
+    padding: 10px 40px;
+    color: white;
+}
+
+.form__input::placeholder {
+    color: rgba(255, 255, 255, 0.8)
+}
+
+.form__input:focus {
+    outline: none;
+}
+
+/* конец первого блока */
+
+
+
+/* второй блок */
+
+.section {
+   width: screen; 
+   text-align: center;
+}
+
+.container {
+    margin: 0;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main__text {
+    display: inline-block;
+    width: 700px;
+    height: 300px;
+    text-align: center;
+}
+
+.main__image {
+    display: inline-block;
+    width: 315px;
+    height: 500px;
+}
+
+.main__image__2 {
+    display: none;
+    display: inline-block;
+    width: 315px;
+    height: 500px;
+}
+
+.main__img {
+    width: 155px;
+    height: 217px;
+    margin-bottom: 4px;
+}
+
+.main__desc {
+    font-size: 20px;
+    line-height: 1.5;
+    color: black;
+}
+
+.main__title {
+    font-size: 20px;
+    font-weight: 30px;
+    line-height: 1.1;
+    color: black;
+}
+
+/* конец второго блока */
+
+
+
+/* второй блок (бальзамы, травы, сборы, масла)*/
+    .section__bal {
+        text-align: center;
+    }
+
+.container__bal {
+    display: inline-block;
+    text-align: center;
+}
+
+
+.main__title__bal {
+    font-size: 15px;
+    font-weight: 300px;
+    line-height: 1.1;
+    color: black;
+}
+
+.main__card__bal {
+    text-align: center;
+    vertical-align: top;
+    display: inline-block;
+    border: 2px solid green;
+    padding: 20px;
+    border-radius: 20px;
+    width: 28%;
+    margin-top: 25px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.main__card__bal:hover {
+    background-color: aliceblue;
+}
+
+.main__title__kont {
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 20px;
+    font-weight: 1000px;
+    line-height: 1.1;
+    color: black;
+    width: 700px;
+}
+
+/* конец второго блока (бальзамы, травы, сборы, масла)*/
+
+
+
+/* Медиа */
+@media screen and (min-width: 1200px) {
+    .header {
+        justify-content: center;
+    }
+    .header__center {
+        display: inline-block;
+        width: 1200px;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    .container__bal {
+        width: 1200px;
+    }
+    .section__bal {
+        text-align: center;
+    }
+    .section {
+        text-align: center;
+    }
+    .container {
+        display: inline-block;
+        width: 1200px;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    .main__image__2 {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+    .main__text {
+        height: 400px;
+        width: 600px;
+    }
+
+    .form__input {
+        width: 250px;
+    }
+    .main__image__2 {
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width: 992px) {
+   .main__text {
+       height: 300px;
+       width: 350px;
+   }
+
+   .header__list {
+       gap: 20px;
+   }
+
+   .form__input {
+       width: 200px;
+       padding: 10px 15px;
+   }
+
+   .form__button {
+        display: none;
+   }
+
+
+}
+
+@media screen and (max-width: 768px) {
+
+   .container {
+       justify-content: space-between;
+       padding: 0;
+       padding-top: 20px;
+   }
+   .main {
+    text-align: center;
+    justify-content: center;
+   }
+
+   .main__text {
+    height: 350px;
+    width: 600px;
+    margin: 0px 25px;
+   }
+
+   .form__input {
+       width: auto;
+       padding: 10px 15px;
+   }
+
+   .form__button {
+       display: none;
+   }
+
+   .header__list {
+       display: none;
+   }
+
+   .main__image {
+       display: none;
+       width: 0px;
+       height: 0px;
+   }
+
+   .main__image__2 {
+       display: block;
+   }
+
+   .main__card__bal {
+        width: 45%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .main__card__bal {
+        width: 70%;
+    }
+
+
+}
+
+@media screen and (max-width: 425px) {
+    .main__text {
+        height: 500px;
+        width: 600px;
+        margin: 0px 25px;
+       }
+}
+
+@media screen and (max-width: 342px) {
+    .main__img {
+        width: 130px;
+        height: 200px;
+        margin-bottom: 4px;
+    }
+    .main__text {
+        height: 600px;
+        width: 600px;
+        margin: 0px 25px;
+       }
+       .form__input {
+        width: 100px;
+        padding: 5px 10px;
+    }
+
+}
+
+/* Конец медиа */
